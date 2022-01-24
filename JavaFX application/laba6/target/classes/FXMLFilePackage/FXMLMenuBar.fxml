@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="310.0" prefWidth="377.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLFilePackage.FXMLMenuBarController">
+   <children>
+      <Label layoutX="40.0" layoutY="58.0" text="Left domain border" />
+      <Label layoutX="36.0" layoutY="130.0" text="Right domain border" />
+      <Label layoutX="55.0" layoutY="204.0" text="Points count" />
+      <TextField fx:id="MenuBar_LeftDomainBorder" layoutX="176.0" layoutY="54.0" />
+      <TextField fx:id="MenuBar_RightDomainBorder" layoutX="176.0" layoutY="126.0" />
+      <Spinner fx:id="MenuBar_PointsCount" layoutX="176.0" layoutY="200.0" />
+      <Button fx:id="MenuBar_Button_Cancel" layoutX="32.0" layoutY="259.0" mnemonicParsing="false" text="Cancel" />
+      <Button fx:id="MenuBar_Button_OK" layoutX="312.0" layoutY="259.0" mnemonicParsing="false" text="OK" />
+   </children>
+</AnchorPane>
